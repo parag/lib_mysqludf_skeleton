@@ -4,7 +4,10 @@ lib_mysqludf_skeleton
 -----------------------
 
 -----------------------
-
+To configure: 
+ autoreconf
+ make sure that you have required libraries installed
+ you may require to install libtool, libmysqlclient16-dev
 To build:
  ./configure
  make && make install
